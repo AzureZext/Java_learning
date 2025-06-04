@@ -1,4 +1,3 @@
-package Java_learning;
 
 public class Dog {
     String name;
@@ -6,7 +5,7 @@ public class Dog {
     public static void main(String[] args){
 
         Dog dog1 = new Dog();
-        dog1.bark();
+        dog1.bark(1);
         dog1.name = "Bart";
 
         Dog[] myDogs = new Dog[3];
@@ -23,12 +22,13 @@ public class Dog {
 
         int x = 0;
         while(x<myDogs.length){
-            myDogs[x].bark();
+            myDogs[x].bark(1);
             x++;
         }
     }
-    public void bark(){
-        System.out.println(name + " says woof!");
+    public void bark(int n){
+        for(int x=0; x<n ; x++)
+            System.out.println(name + " says woof!");
     }
     public void eat(){
 

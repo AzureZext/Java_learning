@@ -1,4 +1,4 @@
-package Java_learning;
+
 public class tenGreenBottles {
     public static void main( String[] args){
         int bottlesNum = 10;

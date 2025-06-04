@@ -1,4 +1,4 @@
-package Java_learning;
+
 class Dog{
     int size;
     String breed;

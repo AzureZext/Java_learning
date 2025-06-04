@@ -1,4 +1,4 @@
-package Java_learning;
+
 public class phraseOmatic {
     public static void main(String[] args){
         String[] wordListOne = {
