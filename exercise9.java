@@ -12,7 +12,7 @@ public class exercise9 {
         for(int x = 0; x<size; x++){
             nums[x] = sc.nextInt();
         }
-
+        sc.close();
         int maxn = Integer.MIN_VALUE;
         int minn= Integer.MAX_VALUE;
 

@@ -13,7 +13,7 @@ public class exercise10 {
             System.out.printf("Enter element %d: ", x+1);
             nums[x] = sc.nextInt();
         }
-
+        sc.close();
         boolean isAsc = true;
         for(int x = 0; x < size-1; x++){
             if(nums[x]>nums[x+1]){
