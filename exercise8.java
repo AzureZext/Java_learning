@@ -17,6 +17,7 @@ public class exercise8 {
 
         System.out.print("Enter a number to find it's index: ");
         int key = sc.nextInt();
+        sc.close();
         boolean keyFound = false;
 
         for(int x=0; x<size; x++){
