@@ -19,7 +19,7 @@ public class matrixNSearch {
 
         System.out.println("Enter element to find: ");
         int key = sc.nextInt();
-
+        sc.close();
         for(int x=0; x<rows; x++){
             for(int y=0; y<cols; y++){
                 if(matrix[x][y] == key){
@@ -27,6 +27,6 @@ public class matrixNSearch {
                 }
             }
         }
-        
+
     }
 }
